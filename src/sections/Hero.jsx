@@ -3,11 +3,11 @@ import { shoes, statistics } from "../constants";
 import Button from "../components/Button";
 import ShoeCard from "../components/ShoeCard";
 import { bigShoe1 } from "../assets/images";
-import { arrowRight } from "../assets/icons";
+import { arrowRight } from "../assets/icons/";
 
 const Hero = () => {
   const [bigShoeImg, setBigShoeImg] = useState(bigShoe1);
-
+  console.log(" arrow Right Icon  ", arrowRight);
   return (
     <section
       id="home"

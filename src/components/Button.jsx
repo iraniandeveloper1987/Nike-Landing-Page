@@ -1,4 +1,4 @@
-const Button = ({ label, iconUrl }) => {
+const Button = ({ label, iconURL }) => {
   return (
     <button
       className="flex
@@ -6,7 +6,7 @@ const Button = ({ label, iconUrl }) => {
     py-4 border font-montserrat text-lg leading-none bg-coral-red rounded-full text-white border-coral-red"
     >
       {label}
-      <img src={iconUrl} alt="icon" className="ml-2 rounded-full w-5 h-5" />
+      <img src={iconURL} alt="icon" className="ml-2 rounded-full w-5 h-5" />
     </button>
   );
 };
